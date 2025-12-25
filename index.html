@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Shree Technologies – Digital Growth & ERP Solutions</title>
+  <title>Shree Technologies – AI, Machine Learning, ERP & Digital Growth</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Tailwind CDN -->
@@ -11,12 +11,10 @@
 
   <!-- Custom Styles -->
   <style>
-    /* Smooth scrolling */
     html {
       scroll-behavior: smooth;
     }
 
-    /* Blink animation for caret */
     @keyframes blink {
 
       0%,
@@ -34,7 +32,6 @@
       animation: blink 1s steps(2, start) infinite;
     }
 
-    /* Floating animation for background elements */
     @keyframes float {
       0% {
         transform: translateY(0px);
@@ -57,7 +54,6 @@
       animation: float 12s ease-in-out infinite;
     }
 
-    /* Soft glowing CTA */
     @keyframes pulse-soft {
       0% {
         box-shadow: 0 0 0 0 rgba(0, 103, 188, 0.4);
@@ -76,24 +72,6 @@
       animation: pulse-soft 2.4s infinite;
     }
 
-    /* Soft bounce for scroll indicator */
-    @keyframes bounce-soft {
-
-      0%,
-      100% {
-        transform: translateY(0);
-      }
-
-      50% {
-        transform: translateY(-6px);
-      }
-    }
-
-    .bounce-soft {
-      animation: bounce-soft 1.6s ease-in-out infinite;
-    }
-
-    /* Floating WhatsApp pulse */
     @keyframes btn-pulse {
       0% {
         transform: scale(1);
@@ -123,6 +101,7 @@
   <header class="fixed top-0 inset-x-0 z-30 bg-white/80 backdrop-blur border-b border-slate-200">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
+
         <!-- Logo -->
         <div class="flex items-center space-x-2">
           <div
@@ -131,12 +110,13 @@
           </div>
           <div>
             <div class="font-semibold tracking-tight">Shree Technologies</div>
-            <div class="text-xs text-slate-500">Digital • Web • ERP • Branding</div>
+            <div class="text-xs text-slate-500">AI • ML • ERP • Digital</div>
           </div>
         </div>
 
         <!-- Desktop Nav -->
         <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+          <a href="#ai-usecases" class="text-slate-700 hover:text-[#0067BC] transition">AI Use Cases</a>
           <a href="#services" class="text-slate-700 hover:text-[#0067BC] transition">Services</a>
           <a href="#results" class="text-slate-700 hover:text-[#0067BC] transition">Results</a>
           <a href="#why-us" class="text-slate-700 hover:text-[#0067BC] transition">Why Us</a>
@@ -147,7 +127,7 @@
           </a>
         </nav>
 
-        <!-- Mobile Nav (simple scroll link) -->
+        <!-- Mobile CTA -->
         <a href="#contact"
           class="md:hidden inline-flex items-center px-3 py-1.5 rounded-full bg-[#0067BC] text-white text-xs font-semibold hover:bg-[#0A4F52] transition">
           Let’s Talk
@@ -156,92 +136,76 @@
     </div>
   </header>
 
-  <!-- Spacer for fixed header -->
   <div class="h-16"></div>
 
   <!--================ HERO =================-->
   <section class="relative overflow-hidden bg-gradient-to-br from-[#0A4F52] via-[#0067BC] to-[#5D2036] text-white">
-    <!-- Floating shapes -->
-    <div class="pointer-events-none absolute -left-24 top-10 w-56 h-56 rounded-full bg-white/5 blur-3xl float-slow">
-    </div>
-    <div
-      class="pointer-events-none absolute -right-24 bottom-0 w-64 h-64 rounded-full bg-white/10 blur-3xl float-slower">
-    </div>
+    <div class="pointer-events-none absolute -left-24 top-10 w-56 h-56 rounded-full bg-white/5 blur-3xl float-slow"></div>
+    <div class="pointer-events-none absolute -right-24 bottom-0 w-64 h-64 rounded-full bg-white/10 blur-3xl float-slower"></div>
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 relative">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
+
         <!-- Hero Content -->
         <div>
-          <p
-            class="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-xs uppercase tracking-[0.2em] mb-4">
-            DIGITAL • WEB • ERP • BRANDING
-          </p>
-          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-            Transforming Businesses with
-            <span class="block mt-1 bg-clip-text text-transparent bg-gradient-to-r from-white via-amber-200 to-sky-100">
-              Data-Driven Marketing & Smart Technology
+          <div class="flex flex-wrap items-center gap-2 mb-4">
+            <p class="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-xs uppercase tracking-[0.2em]">
+              AI and Machine Learning First
+            </p>
+            <span
+              class="inline-flex items-center px-3 py-1 text-xs rounded-full bg-amber-200/15 text-amber-100 border border-amber-200/20">
+              Automate. Predict. Control.
             </span>
-          </h1>
-          <p class="mt-5 text-sm sm:text-base text-sky-100/85 max-w-xl">
-            We blend <strong>SEO, digital marketing, premium websites, ERP systems</strong> and branding into one
-            powerful engine that grows your revenue and reputation.
-          </p>
-
-          <!-- Typing line with blinking caret -->
-          <div class="mt-4 text-xs sm:text-sm font-mono text-emerald-100/90">
-            &gt; We build <span class="font-semibold">traffic, trust, and tech</span> for your brand<span
-              class="blink-caret">|</span>
           </div>
 
-          <!-- CTA buttons -->
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
+            Enterprise-Grade AI 
+
+            <span class="block mt-1 bg-clip-text text-transparent bg-gradient-to-r from-white via-amber-200 to-sky-100">
+              for Real Business Workflows
+            </span>
+          </h1>
+
+          <p class="mt-5 text-sm sm:text-base text-sky-100/85 max-w-xl">
+            We build AI automation and ML intelligence for real workflows, then connect it with ERP, websites,
+            and performance marketing to deliver measurable outcomes.
+          </p>
+
+          <div class="mt-4 text-xs sm:text-sm font-mono text-emerald-100/90">
+            &gt; Intelligence first, then scale with systems and growth<span class="blink-caret">|</span>
+          </div>
+
           <div class="mt-8 flex flex-wrap items-center gap-4">
             <a href="#contact"
-              class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-[#0067BC] font-semibold text-sm shadow-lg shadow-sky-900/40 hover:bg-[#FAFAFA] transition cta-pulse animate-pulse">
-              Book a Free Strategy Call
+              class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-[#0067BC] font-semibold text-sm shadow-lg shadow-sky-900/40 hover:bg-[#FAFAFA] transition cta-pulse">
+              Talk About AI Solutions
             </a>
-            <a href="#services"
+            <a href="#ai-usecases"
               class="inline-flex items-center text-sm font-medium text-sky-100 hover:text-amber-200 transition">
-              View Services
+              See AI Use Cases
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
               </svg>
             </a>
           </div>
-
-          <!-- Trust badges -->
-          <div class="mt-8 grid grid-cols-3 gap-4 max-w-md text-xs text-sky-100/80">
-            <div>
-              <div class="text-lg font-semibold">10+</div>
-              <div>Years of experience</div>
-            </div>
-            <div>
-              <div class="text-lg font-semibold">250+</div>
-              <div>Projects delivered</div>
-            </div>
-            <div>
-              <div class="text-lg font-semibold">98%</div>
-              <div>Client satisfaction</div>
-            </div>
-          </div>
         </div>
 
-        <!-- Hero Right: Card / Analytics Preview -->
+        <!-- Hero Right: Snapshot -->
         <div class="relative">
           <div
             class="relative z-10 bg-white/95 backdrop-blur border border-slate-200 rounded-2xl p-6 shadow-2xl shadow-sky-950/50">
             <div class="flex items-center justify-between">
               <div>
-                <p class="text-xs font-medium text-slate-500 uppercase tracking-wide">Live Growth Snapshot</p>
-                <p class="mt-1 text-xl font-semibold text-[#0A4F52]">+312% Organic Traffic</p>
+                <p class="text-xs font-medium text-slate-500 uppercase tracking-wide">AI Impact Snapshot</p>
+                <p class="mt-1 text-xl font-semibold text-[#0A4F52]">Automation + Prediction</p>
               </div>
               <span
                 class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                SEO & Ads Optimised
+                AI and ML Priority
               </span>
             </div>
 
-            <!-- Graph-ish bars -->
             <div class="mt-6 grid grid-cols-6 gap-1 items-end h-28">
               <div class="bg-gradient-to-t from-[#6A7F71] to-[#0A4F52] rounded-full h-10"></div>
               <div class="bg-gradient-to-t from-[#6A7F71] to-[#0067BC] rounded-full h-14"></div>
@@ -253,245 +217,389 @@
 
             <div class="mt-5 grid grid-cols-3 gap-4 text-xs">
               <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-3">
-                <p class="text-[10px] uppercase text-slate-500">Lead Cost</p>
-                <p class="mt-1 text-sm font-semibold text-[#0067BC]">-42%</p>
+                <p class="text-[10px] uppercase text-slate-500">Speed</p>
+                <p class="mt-1 text-sm font-semibold text-[#0067BC]">Faster TAT</p>
               </div>
               <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-3">
-                <p class="text-[10px] uppercase text-slate-500">Conversion Rate</p>
-                <p class="mt-1 text-sm font-semibold text-[#0A4F52]">+63%</p>
+                <p class="text-[10px] uppercase text-slate-500">Control</p>
+                <p class="mt-1 text-sm font-semibold text-[#0A4F52]">QC Flags</p>
               </div>
               <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-3">
-                <p class="text-[10px] uppercase text-slate-500">Ad ROAS</p>
-                <p class="mt-1 text-sm font-semibold text-[#5D2036]">4.7x</p>
+                <p class="text-[10px] uppercase text-slate-500">Visibility</p>
+                <p class="mt-1 text-sm font-semibold text-[#5D2036]">Dashboards</p>
               </div>
             </div>
           </div>
 
-          <!-- Halo behind card -->
           <div class="absolute inset-0 -z-0 flex items-center justify-center">
             <div class="w-64 h-64 rounded-full bg-[#0067BC]/20 blur-3xl"></div>
           </div>
         </div>
+
       </div>
-
-
     </div>
   </section>
 
-  <!--================ SERVICES =================-->
-  <section id="services" class="py-16 lg:py-20 bg-[#FAFAFA]">
+  <!--================ AI USE CASES (NEW SECTION) =================-->
+  <section id="ai-usecases" class="py-16 lg:py-20 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
         <div>
           <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A4F52]">
-            Services Built for Modern Growth
+            AI Use Cases We Build
           </h2>
-          <p class="mt-2 text-sm text-slate-600 max-w-xl">
-            From visibility to systems, we handle everything — SEO, performance marketing,
-            websites, ERP, and branding — under one strategy.
+          <p class="mt-2 text-sm text-slate-600 max-w-2xl">
+            Built for Indian mid-sized businesses that can invest around ₹6 lakh+ for a serious automation and intelligence solution.
           </p>
         </div>
         <p class="text-xs text-slate-500 max-w-sm">
-          Pick any one service or combine them into a powerful stack. We’ll tailor the execution
-          to your stage, budget, and business model.
+          We deliver workflow-first AI that integrates with your teams, data and approvals process.
         </p>
       </div>
 
-      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
-        <!-- 1. SEO -->
-        <div
-          class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-900/10 transition-transform">
-          <div class="flex items-center justify-between mb-3">
-            <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
-              <img src="/img/service-seo.png" alt="SEO ranking growth chart" class="w-full h-full object-cover" />
-            </div>
-            <div class="w-8 h-8 rounded-full bg-[#0A4F52]/10 flex items-center justify-center text-[#0A4F52]">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M4.5 19.5l4.5-4.5m0 0L4.5 10.5m4.5 4.5H3m9-9h9m-4.5 0l-4.5 4.5m0 0l4.5 4.5m-4.5-4.5H21" />
-              </svg>
-            </div>
+        <!-- Insurance (Priority) -->
+        <div class="group border-2 border-[#0067BC]/35 rounded-2xl p-5 bg-slate-50 hover:shadow-xl transition">
+          <div class="flex items-center justify-between">
+            <span
+              class="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full bg-[#0067BC]/10 text-[#0067BC] border border-[#0067BC]/20 font-semibold uppercase tracking-wide">
+              Priority
+            </span>
+            <span class="text-[10px] text-slate-500 uppercase">Insurance</span>
           </div>
-          <h3 class="font-semibold text-sm text-slate-900">Search Engine Optimisation</h3>
+
+          <h3 class="mt-3 font-semibold text-sm text-slate-900">Insurance Survey and Claims Automation</h3>
           <p class="mt-2 text-xs text-slate-600">
-            Technical SEO, on-page optimisation, content strategy and authority building designed
-            to push you to Page&nbsp;1.
+            AI workflows that speed up surveys, reduce delays, and improve claim turnaround time.
           </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+            <li>• Mobile surveyor workflow and guided checklists</li>
+            <li>• Photo tagging, geo and timestamp verification</li>
+            <li>• Draft report generation and QC-ready output</li>
+            <li>• Fraud signals and anomaly alerts</li>
+          </ul>
           <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
-            Increase organic traffic →
+            Build an AI survey pipeline →
           </p>
         </div>
 
-        <!-- 2. Digital Marketing & Ads -->
-        <div
-          class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-900/10 transition-transform">
-          <div class="flex items-center justify-between mb-3">
-            <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
-              <img src="/img/service-ads.png" alt="Digital marketing performance dashboard"
-                class="w-full h-full object-cover" />
-            </div>
-            <div class="w-8 h-8 rounded-full bg-[#0067BC]/10 flex items-center justify-center text-[#0067BC]">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M3 10.5l7.5 4.5L21 6.75M3 6l7.5 4.5L21 3" />
-              </svg>
-            </div>
+        <!-- Manufacturing -->
+        <div class="group border border-slate-200 rounded-2xl p-5 bg-white hover:shadow-xl transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[10px] text-slate-500 uppercase">Manufacturing</span>
+            <span class="text-[10px] text-slate-500 uppercase">Distribution</span>
           </div>
-          <h3 class="font-semibold text-sm text-slate-900">Digital Marketing & Paid Ads</h3>
+
+          <h3 class="mt-3 font-semibold text-sm text-slate-900">Manufacturing and Distribution Intelligence</h3>
           <p class="mt-2 text-xs text-slate-600">
-            Performance-led campaigns across Google & Meta, optimised for conversions and ROAS.
+            ML forecasting to control inventory, reduce losses, and predict demand.
           </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+            <li>• Demand forecasting by SKU, region and season</li>
+            <li>• Stockout and overstock prediction with alerts</li>
+            <li>• Distributor performance dashboards</li>
+            <li>• Anomaly detection for returns and leakage</li>
+          </ul>
           <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
-            Scale leads & sales →
+            Add AI to your ERP dashboards →
           </p>
         </div>
 
-        <!-- 3. Website / Landing Pages -->
-        <div
-          class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-900/10 transition-transform">
-          <div class="flex items-center justify-between mb-3">
-            <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
-              <img src="/img/service-web.png" alt="Modern responsive website mockup"
-                class="w-full h-full object-cover" />
-            </div>
-            <div class="w-8 h-8 rounded-full bg-[#6A7F71]/10 flex items-center justify-center text-[#6A7F71]">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M3.75 5.25h16.5v13.5H3.75zM8.25 9h7.5" />
-              </svg>
-            </div>
+        <!-- Real Estate -->
+        <div class="group border border-slate-200 rounded-2xl p-5 bg-white hover:shadow-xl transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[10px] text-slate-500 uppercase">Real Estate</span>
+            <span class="text-[10px] text-slate-500 uppercase">Construction</span>
           </div>
-          <h3 class="font-semibold text-sm text-slate-900">Website & Landing Page Development</h3>
+
+          <h3 class="mt-3 font-semibold text-sm text-slate-900">Real Estate Sales and Operations AI</h3>
           <p class="mt-2 text-xs text-slate-600">
-            Fast, conversion-focused websites built with world-class UX and responsive design.
+            Reduce lead leakage, improve follow-ups, and increase site visits.
           </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+            <li>• Lead qualification and follow-up automation</li>
+            <li>• Conversion probability prediction by source</li>
+            <li>• Missed-call and delayed follow-up alerts</li>
+            <li>• Daily dashboards for owners and managers</li>
+          </ul>
           <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
-            Upgrade your web presence →
+            Improve lead-to-booking rate →
           </p>
         </div>
 
-        <!-- 4. ERP & Automation -->
-        <div
-          class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-900/10 transition-transform">
-          <div class="flex items-center justify-between mb-3">
-            <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
-              <img src="/img/service-erp.png" alt="ERP system dashboard with business modules"
-                class="w-full h-full object-cover" />
-            </div>
-            <div class="w-8 h-8 rounded-full bg-[#5D2036]/10 flex items-center justify-center text-[#5D2036]">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M4.5 6.75h15M4.5 12h15M4.5 17.25h8.25" />
-              </svg>
-            </div>
+        <!-- Healthcare -->
+        <div class="group border border-slate-200 rounded-2xl p-5 bg-white hover:shadow-xl transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[10px] text-slate-500 uppercase">Healthcare</span>
+            <span class="text-[10px] text-slate-500 uppercase">Diagnostics</span>
           </div>
-          <h3 class="font-semibold text-sm text-slate-900">Custom ERP & Business Automation</h3>
-          <p class="mt-2 text-xs text-slate-600">
-            End-to-end systems connecting sales, accounts, inventory, HR and operations in one place.
-          </p>
-          <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
-            Streamline operations →
-          </p>
-        </div>
 
-        <!-- 5. Branding & Design -->
-        <div
-          class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-900/10 transition-transform">
-          <div class="flex items-center justify-between mb-3">
-            <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
-              <img src="/img/service-brand.png" alt="Brand identity and logo mockups"
-                class="w-full h-full object-cover" />
-            </div>
-            <div class="w-8 h-8 rounded-full bg-[#0A4F52]/10 flex items-center justify-center text-[#0A4F52]">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v12m6-6H6" />
-              </svg>
-            </div>
-          </div>
-          <h3 class="font-semibold text-sm text-slate-900">Brand Identity & Design</h3>
+          <h3 class="mt-3 font-semibold text-sm text-slate-900">Healthcare and Diagnostics Automation</h3>
           <p class="mt-2 text-xs text-slate-600">
-            Logos, brand systems and visual language that make your business instantly recognisable.
+            Reduce staff load, improve follow-ups, and increase repeat visits.
           </p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+            <li>• Appointment reminders and no-show risk signals</li>
+            <li>• Automated follow-ups for reports and visits</li>
+            <li>• Billing anomaly alerts and revenue visibility</li>
+            <li>• Branch-wise performance dashboards</li>
+          </ul>
           <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
-            Build a memorable brand →
-          </p>
-        </div>
-
-        <!-- 6. Custom Growth Stack -->
-        <div class="group border border-dashed border-slate-300 rounded-2xl p-5 bg-slate-50/70">
-          <div class="flex items-center justify-between mb-3">
-            <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
-              <img src="/img/service-custom.png" alt="Stacked growth services puzzle graphic"
-                class="w-full h-full object-cover" />
-            </div>
-            <div
-              class="w-8 h-8 rounded-full bg-slate-200/70 flex items-center justify-center text-slate-500 text-[11px] font-semibold">
-              MIX
-            </div>
-          </div>
-          <h3 class="font-semibold text-sm text-slate-900">Custom Growth Stack</h3>
-          <p class="mt-2 text-xs text-slate-600">
-            Want a mix of multiple services? We’ll design a custom growth stack that fits your
-            business and budget perfectly.
-          </p>
-          <p class="mt-3 text-xs font-medium text-[#0067BC]">
-            Tell us what you need →
+            Automate patient operations →
           </p>
         </div>
 
       </div>
     </div>
   </section>
+
+ <!--================ SERVICES =================-->
+<section id="services" class="py-16 lg:py-20 bg-[#FAFAFA]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A4F52]">
+          Services with AI and ML at the Core
+        </h2>
+        <p class="mt-2 text-sm text-slate-600 max-w-xl">
+          We lead with AI and ML, then support it with ERP, websites, SEO, performance marketing, and branding.
+        </p>
+      </div>
+      <p class="text-xs text-slate-500 max-w-sm">
+        Start with AI only, or build a full stack for operations and growth.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- 1) AI & ML (FIRST, WITH IMAGE) -->
+      <div
+        class="group border-2 border-[#0067BC]/40 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-2xl hover:shadow-sky-900/15 transition-transform">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-ai.png" alt="AI and machine learning solutions concept"
+              class="w-full h-full object-cover" />
+          </div>
+          <span
+            class="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full bg-[#0067BC]/10 text-[#0067BC] border border-[#0067BC]/20 font-semibold uppercase tracking-wide">
+            Priority
+          </span>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">AI and Machine Learning Solutions</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Automation, ML predictions, intelligent dashboards, anomaly alerts, and workflow copilots built for your business.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
+          <span class="px-2 py-1 rounded-full bg-slate-50 border border-slate-200 text-slate-700">Automation</span>
+          <span class="px-2 py-1 rounded-full bg-slate-50 border border-slate-200 text-slate-700">Prediction</span>
+          <span class="px-2 py-1 rounded-full bg-slate-50 border border-slate-200 text-slate-700">Dashboards</span>
+          <span class="px-2 py-1 rounded-full bg-slate-50 border border-slate-200 text-slate-700">Copilots</span>
+        </div>
+        <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
+          Add intelligence to your workflow →
+        </p>
+      </div>
+
+      <!-- 2) ERP -->
+      <div
+        class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-900/10 transition-transform">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-erp.png" alt="ERP system dashboard with business modules"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="w-8 h-8 rounded-full bg-[#5D2036]/10 flex items-center justify-center text-[#5D2036]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M4.5 6.75h15M4.5 12h15M4.5 17.25h8.25" />
+            </svg>
+          </div>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">Custom ERP and Business Automation</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Connected systems for sales, accounts, inventory, HR and operations with clean reporting.
+        </p>
+        <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
+          Streamline operations →
+        </p>
+      </div>
+
+      <!-- 3) Website -->
+      <div
+        class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-900/10 transition-transform">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-web.png" alt="Modern responsive website mockup"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="w-8 h-8 rounded-full bg-[#6A7F71]/10 flex items-center justify-center text-[#6A7F71]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M3.75 5.25h16.5v13.5H3.75zM8.25 9h7.5" />
+            </svg>
+          </div>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">Website and Web App Development</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Fast, premium websites and web apps built for conversions and performance.
+        </p>
+        <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
+          Upgrade your web presence →
+        </p>
+      </div>
+
+      <!-- 4) Ads -->
+      <div
+        class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-900/10 transition-transform">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-ads.png" alt="Digital marketing performance dashboard"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="w-8 h-8 rounded-full bg-[#0067BC]/10 flex items-center justify-center text-[#0067BC]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M3 10.5l7.5 4.5L21 6.75M3 6l7.5 4.5L21 3" />
+            </svg>
+          </div>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">Digital Marketing and Paid Ads</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Performance campaigns optimised for conversions, ROAS, and growth.
+        </p>
+        <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
+          Scale leads and sales →
+        </p>
+      </div>
+
+      <!-- 5) SEO -->
+      <div
+        class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-900/10 transition-transform">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-seo.png" alt="SEO ranking growth chart" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-8 h-8 rounded-full bg-[#0A4F52]/10 flex items-center justify-center text-[#0A4F52]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M4.5 19.5l4.5-4.5m0 0L4.5 10.5m4.5 4.5H3m9-9h9m-4.5 0l-4.5 4.5m0 0l4.5 4.5m-4.5-4.5H21" />
+            </svg>
+          </div>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">Search Engine Optimisation</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Technical SEO, content strategy, and authority building to reach Page 1.
+        </p>
+        <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
+          Increase organic traffic →
+        </p>
+      </div>
+
+      <!-- 6) Branding -->
+      <div
+        class="group border border-slate-200 rounded-2xl p-5 bg-white hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-900/10 transition-transform">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-brand.png" alt="Brand identity and logo mockups"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="w-8 h-8 rounded-full bg-[#0A4F52]/10 flex items-center justify-center text-[#0A4F52]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v12m6-6H6" />
+            </svg>
+          </div>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">Brand Identity and Design</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Logos, brand systems, and visuals that build trust and recall.
+        </p>
+        <p class="mt-3 text-xs font-medium text-[#0067BC] group-hover:text-[#5D2036]">
+          Build a memorable brand →
+        </p>
+      </div>
+
+      <!-- 7) Custom Growth Stack -->
+      <div class="group border border-dashed border-slate-300 rounded-2xl p-5 bg-slate-50/70">
+        <div class="flex items-center justify-between mb-3">
+          <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 border border-slate-200">
+            <img src="/img/service-custom.png" alt="Stacked growth services puzzle graphic"
+              class="w-full h-full object-cover" />
+          </div>
+          <div
+            class="w-8 h-8 rounded-full bg-slate-200/70 flex items-center justify-center text-slate-500 text-[11px] font-semibold">
+            MIX
+          </div>
+        </div>
+        <h3 class="font-semibold text-sm text-slate-900">Custom Growth Stack</h3>
+        <p class="mt-2 text-xs text-slate-600">
+          Need a mix of services? We will design a stack that fits your goals, workflow, and budget.
+        </p>
+        <p class="mt-3 text-xs font-medium text-[#0067BC]">
+          Tell us what you need →
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
   <!--================ RESULTS =================-->
   <section id="results" class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
-        <div>
-          <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A4F52]">
-            Real Results. Not Just Promises.
-          </h2>
-          <p class="mt-2 text-sm text-slate-600 max-w-xl">
-            A few snapshots from the kind of growth we create when strategy, creative and technology work together.
-          </p>
-        </div>
+      <div class="mb-10">
+        <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A4F52]">
+          Results That AI and Systems Unlock
+        </h2>
+        <p class="mt-2 text-sm text-slate-600 max-w-xl">
+          A few snapshots of what improves when workflows become intelligent and connected.
+        </p>
       </div>
 
-      <div class="grid gap-6 md:grid-cols-3">
-        <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/70">
-          <h3 class="text-sm font-semibold text-slate-900">Local Service Brand – SEO</h3>
-          <p class="mt-1 text-xs text-slate-500">From invisible to local leader</p>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="border-2 border-[#0067BC]/30 rounded-2xl p-5 bg-slate-50/70">
+          <h3 class="text-sm font-semibold text-slate-900">Insurance - Faster TAT</h3>
+          <p class="mt-1 text-xs text-slate-500">Survey to report, streamlined</p>
           <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
-            <li>• +350% organic traffic in 6 months</li>
-            <li>• 18–20 qualified calls per day</li>
-            <li>• Top 3 positions for 12 money keywords</li>
+            <li>• Guided surveys reduce manual errors</li>
+            <li>• QC flags reduce rework</li>
+            <li>• Faster approvals with better clarity</li>
           </ul>
         </div>
 
         <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/70">
-          <h3 class="text-sm font-semibold text-slate-900">E-Commerce Store – Ads</h3>
-          <p class="mt-1 text-xs text-slate-500">Scaling with precision</p>
+          <h3 class="text-sm font-semibold text-slate-900">Manufacturing - Control</h3>
+          <p class="mt-1 text-xs text-slate-500">Inventory and forecasting</p>
           <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
-            <li>• 5.1x blended ROAS across Google + Meta</li>
-            <li>• 42% drop in cost per purchase</li>
-            <li>• Automated funnels & remarketing</li>
+            <li>• Stockout and overstock prediction</li>
+            <li>• Better planning across warehouses</li>
+            <li>• Dashboards for leadership</li>
           </ul>
         </div>
 
         <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/70">
-          <h3 class="text-sm font-semibold text-slate-900">Manufacturing Firm – ERP</h3>
-          <p class="mt-1 text-xs text-slate-500">Operations, connected</p>
+          <h3 class="text-sm font-semibold text-slate-900">Real Estate - More Visits</h3>
+          <p class="mt-1 text-xs text-slate-500">Follow-ups that convert</p>
           <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
-            <li>• Single ERP for inventory, sales & accounts</li>
-            <li>• 35–40% faster reporting cycles</li>
-            <li>• Real-time dashboards for management</li>
+            <li>• Lead leakage reduced via automation</li>
+            <li>• Conversion scoring improves focus</li>
+            <li>• Daily manager dashboards</li>
+          </ul>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/70">
+          <h3 class="text-sm font-semibold text-slate-900">Healthcare - Better Ops</h3>
+          <p class="mt-1 text-xs text-slate-500">Reminders and follow-ups</p>
+          <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+            <li>• No-show signals and reminders</li>
+            <li>• Faster report follow-ups</li>
+            <li>• Visibility across branches</li>
           </ul>
         </div>
       </div>
@@ -500,8 +608,7 @@
 
   <!--================ WHY US =================-->
   <section id="why-us" class="py-16 bg-[#0A4F52] text-white relative overflow-hidden">
-    <div class="pointer-events-none absolute -right-32 -top-10 w-64 h-64 rounded-full bg-white/10 blur-3xl float-slow">
-    </div>
+    <div class="pointer-events-none absolute -right-32 -top-10 w-64 h-64 rounded-full bg-white/10 blur-3xl float-slow"></div>
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <div class="grid lg:grid-cols-2 gap-10 items-start">
@@ -510,35 +617,26 @@
             Why Work with Shree Technologies?
           </h2>
           <p class="mt-3 text-sm text-emerald-50/90">
-            We sit at the intersection of <strong>marketing, technology and design</strong> – which means you don’t
-            juggle multiple vendors or broken strategies.
+            We build AI that fits business reality, integrate it with systems, and support it with marketing where needed.
           </p>
         </div>
 
         <div class="grid grid-cols-2 gap-4 text-xs">
           <div class="rounded-2xl bg-white/5 border border-emerald-200/20 p-4">
-            <p class="font-semibold">End-to-End Thinking</p>
-            <p class="mt-1 text-emerald-50/90">
-              Strategy, execution & tech under one roof. No blame game between “IT” and “Marketing”.
-            </p>
+            <p class="font-semibold">AI First Approach</p>
+            <p class="mt-1 text-emerald-50/90">We find the highest-impact automation and prediction opportunities first.</p>
           </div>
           <div class="rounded-2xl bg-white/5 border border-emerald-200/20 p-4">
-            <p class="font-semibold">Data, Not Guesswork</p>
-            <p class="mt-1 text-emerald-50/90">
-              We build dashboards so you can see exactly what’s working and what isn’t.
-            </p>
+            <p class="font-semibold">Business-Ready Build</p>
+            <p class="mt-1 text-emerald-50/90">Workflows, permissions, approvals, and dashboards, not just demos.</p>
           </div>
           <div class="rounded-2xl bg-white/5 border border-emerald-200/20 p-4">
-            <p class="font-semibold">Tech + Creative</p>
-            <p class="mt-1 text-emerald-50/90">
-              Engineers and creative strategists collaborate to build practical solutions.
-            </p>
+            <p class="font-semibold">Integration Focus</p>
+            <p class="mt-1 text-emerald-50/90">We connect AI with ERP, forms, WhatsApp, reporting, and your teams.</p>
           </div>
           <div class="rounded-2xl bg-white/5 border border-emerald-200/20 p-4">
-            <p class="font-semibold">Transparent & Responsive</p>
-            <p class="mt-1 text-emerald-50/90">
-              Clear communication, periodic reviews, and no hidden surprises.
-            </p>
+            <p class="font-semibold">Clear Reporting</p>
+            <p class="mt-1 text-emerald-50/90">Regular reviews and dashboards so you always see progress and ROI.</p>
           </div>
         </div>
       </div>
@@ -549,79 +647,82 @@
   <section id="process" class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-2 gap-10">
-        <!-- Process -->
+
         <div>
           <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A4F52]">
             A Simple, Clear Engagement Process
           </h2>
           <p class="mt-2 text-sm text-slate-600">
-            No chaos, no confusion. Just a structured path from discovery to measurable results.
+            We start with discovery, then implement AI workflows, integrate systems, and improve over time.
           </p>
+
           <div class="mt-6 space-y-4">
             <div class="flex items-start space-x-3">
-              <div class="mt-1 w-6 h-6 rounded-full bg-[#0A4F52] text-white text-xs flex items-center justify-center">1
-              </div>
+              <div class="mt-1 w-6 h-6 rounded-full bg-[#0067BC] text-white text-xs flex items-center justify-center">1</div>
               <div>
-                <p class="font-semibold text-sm">Discovery & Audit</p>
-                <p class="text-xs text-slate-600">We understand your goals, analyse your current assets, and map
-                  opportunities.</p>
+                <p class="font-semibold text-sm">Discovery and Data Mapping</p>
+                <p class="text-xs text-slate-600">Workflows, data sources, roles, approvals, and KPI mapping.</p>
               </div>
             </div>
+
             <div class="flex items-start space-x-3">
-              <div class="mt-1 w-6 h-6 rounded-full bg-[#0067BC] text-white text-xs flex items-center justify-center">2
-              </div>
+              <div class="mt-1 w-6 h-6 rounded-full bg-[#0A4F52] text-white text-xs flex items-center justify-center">2</div>
               <div>
-                <p class="font-semibold text-sm">Strategy Blueprint</p>
-                <p class="text-xs text-slate-600">We design a practical plan across SEO, ads, web and tech – prioritised
-                  by impact.</p>
+                <p class="font-semibold text-sm">Blueprint and Roadmap</p>
+                <p class="text-xs text-slate-600">Phased plan for AI, ML, dashboards, and integrations.</p>
               </div>
             </div>
+
             <div class="flex items-start space-x-3">
-              <div class="mt-1 w-6 h-6 rounded-full bg-[#6A7F71] text-white text-xs flex items-center justify-center">3
-              </div>
+              <div class="mt-1 w-6 h-6 rounded-full bg-[#6A7F71] text-white text-xs flex items-center justify-center">3</div>
               <div>
-                <p class="font-semibold text-sm">Execution & Build</p>
-                <p class="text-xs text-slate-600">Our team implements campaigns, websites and ERP modules with regular
-                  updates.</p>
+                <p class="font-semibold text-sm">Build and Integrate</p>
+                <p class="text-xs text-slate-600">We implement and connect the solution with your teams and tools.</p>
               </div>
             </div>
+
             <div class="flex items-start space-x-3">
-              <div class="mt-1 w-6 h-6 rounded-full bg-[#5D2036] text-white text-xs flex items-center justify-center">4
-              </div>
+              <div class="mt-1 w-6 h-6 rounded-full bg-[#5D2036] text-white text-xs flex items-center justify-center">4</div>
               <div>
-                <p class="font-semibold text-sm">Optimise & Scale</p>
-                <p class="text-xs text-slate-600">We review performance, refine and scale what’s working to the next
-                  level.</p>
+                <p class="font-semibold text-sm">Optimise and Scale</p>
+                <p class="text-xs text-slate-600">Improve accuracy, speed, and adoption across departments.</p>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Testimonials -->
         <div>
           <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A4F52]">
             What Clients Say
           </h2>
           <p class="mt-2 text-sm text-slate-600">
-            A few words from brands that trusted us with their growth.
+            AI that delivers business value, not buzzwords.
           </p>
+
           <div class="mt-6 space-y-4">
             <div class="border border-slate-200 rounded-2xl p-4 bg-slate-50/70">
               <p class="text-xs text-slate-700">
-                “We were struggling with inconsistent leads. Within three months of working with Shree Technologies, our
-                cost per lead dropped and the quality improved dramatically.”
+                “The automation reduced follow-up gaps and the dashboards made daily performance clear.”
               </p>
-              <p class="mt-3 text-xs font-semibold text-slate-900">Owner – Regional Service Brand</p>
+              <p class="mt-3 text-xs font-semibold text-slate-900">Operations Lead - Mid-size Business</p>
             </div>
+
             <div class="border border-slate-200 rounded-2xl p-4 bg-slate-50/70">
               <p class="text-xs text-slate-700">
-                “They didn’t just make a website; they created a complete system – from ERP to marketing funnels. Now we
-                have visibility on every part of our business.”
+                “We finally have a workflow that surveyors can use easily, with QC checks that prevent rework.”
               </p>
-              <p class="mt-3 text-xs font-semibold text-slate-900">Director – Manufacturing Company</p>
+              <p class="mt-3 text-xs font-semibold text-slate-900">Manager - Survey Operations</p>
+            </div>
+
+            <div class="border border-slate-200 rounded-2xl p-4 bg-slate-50/70">
+              <p class="text-xs text-slate-700">
+                “Their approach connected technology and business. Everything feels integrated now.”
+              </p>
+              <p class="mt-3 text-xs font-semibold text-slate-900">Director - Growth-focused Company</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -631,111 +732,78 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight">
-          Ready to Map Out Your Growth?
+          Let’s Build Your AI Advantage
         </h2>
         <p class="mt-3 text-sm text-sky-100 max-w-2xl mx-auto">
-          Share a few details and we’ll get back with a customised plan for your business – no fluff, just practical
-          ideas and numbers.
+          Share your industry and goals. We will respond with a practical plan built around your workflow.
         </p>
       </div>
 
       <div class="mt-8 bg-white/95 rounded-2xl shadow-2xl shadow-sky-950/40 p-6 sm:p-8 text-[#111111]">
-       
-    <form
-      id="contactForm"
-      method="POST"
-      action="/api/contact"
-      class="grid gap-6 sm:grid-cols-2 bg-white p-8 rounded-xl shadow-lg border border-slate-200"
-    >
-      <!-- Name -->
-      <div class="sm:col-span-1">
-        <label class="block text-sm font-medium text-slate-700 mb-1">Name *</label>
-        <input
-          type="text"
-          name="name"
-          required
-          class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
-          placeholder="Your full name"
-        />
-      </div>
+        <form id="contactForm" method="POST" action="/api/contact"
+          class="grid gap-6 sm:grid-cols-2 bg-white p-8 rounded-xl shadow-lg border border-slate-200">
 
-      <!-- Company -->
-      <div class="sm:col-span-1">
-        <label class="block text-sm font-medium text-slate-700 mb-1">Company</label>
-        <input
-          type="text"
-          name="company"
-          class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
-          placeholder="Company / Business name"
-        />
-      </div>
+          <div class="sm:col-span-1">
+            <label class="block text-sm font-medium text-slate-700 mb-1">Name *</label>
+            <input type="text" name="name" required
+              class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Your full name" />
+          </div>
 
-      <!-- Email -->
-      <div class="sm:col-span-1">
-        <label class="block text-sm font-medium text-slate-700 mb-1">Email *</label>
-        <input
-          type="email"
-          name="email"
-          required
-          class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
-          placeholder="you@example.com"
-        />
-      </div>
+          <div class="sm:col-span-1">
+            <label class="block text-sm font-medium text-slate-700 mb-1">Company</label>
+            <input type="text" name="company"
+              class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Company / Business name" />
+          </div>
 
-      <!-- Phone -->
-      <div class="sm:col-span-1">
-        <label class="block text-sm font-medium text-slate-700 mb-1">Phone</label>
-        <input
-          type="text"
-          name="phone"
-          class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
-          placeholder="+91 98765 43210"
-        />
-      </div>
+          <div class="sm:col-span-1">
+            <label class="block text-sm font-medium text-slate-700 mb-1">Email *</label>
+            <input type="email" name="email" required
+              class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="you@example.com" />
+          </div>
 
-      <!-- Service -->
-      <div class="sm:col-span-2">
-        <label class="block text-sm font-medium text-slate-700 mb-1">Service interested in</label>
-        <select
-          name="service"
-          class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
-        >
-          <option value="SEO">Search Engine Optimization (SEO)</option>
-          <option value="Website Development">Website Development</option>
-          <option value="Digital Marketing">Digital Marketing</option>
-          <option value="Branding">Branding & Identity</option>
-          <option value="ERP Development">ERP / Software Development</option>
-          <option value="Other">Something Else</option>
-        </select>
-      </div>
+          <div class="sm:col-span-1">
+            <label class="block text-sm font-medium text-slate-700 mb-1">Phone</label>
+            <input type="text" name="phone"
+              class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="+91 98765 43210" />
+          </div>
 
-      <!-- Message -->
-      <div class="sm:col-span-2">
-        <label class="block text-sm font-medium text-slate-700 mb-1">Message</label>
-        <textarea
-          name="message"
-          rows="4"
-          class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
-          placeholder="Tell us briefly what you need..."
-        ></textarea>
-      </div>
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-slate-700 mb-1">Service interested in</label>
+            <select name="service"
+              class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500">
+              <option value="Insurance Survey Automation">Insurance Survey and Claims Automation (Priority)</option>
+              <option value="AI and Machine Learning">AI and Machine Learning</option>
+              <option value="ERP Development">ERP / Software Development</option>
+              <option value="Website Development">Website Development</option>
+              <option value="SEO">Search Engine Optimization (SEO)</option>
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="Branding">Branding and Identity</option>
+              <option value="Other">Something Else</option>
+            </select>
+          </div>
 
-      <!-- Status message -->
-      <div class="sm:col-span-2">
-        <p id="formStatus" class="text-sm font-medium"></p>
-      </div>
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-slate-700 mb-1">Message</label>
+            <textarea name="message" rows="4"
+              class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-blue-500 focus:border-blue-500"
+              placeholder="What do you want to automate or predict? What data do you have? What outcome do you want?"></textarea>
+          </div>
 
-      <!-- Submit button -->
-      <div class="sm:col-span-2 text-center">
-        <button
-          type="submit"
-          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
-        >
-          Submit Details
-        </button>
-      </div>
-    </form>
+          <div class="sm:col-span-2">
+            <p id="formStatus" class="text-sm font-medium"></p>
+          </div>
 
+          <div class="sm:col-span-2 text-center">
+            <button type="submit"
+              class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
+              Submit Details
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </section>
@@ -744,16 +812,13 @@
   <footer class="py-6 bg-[#111111] text-slate-300 text-xs">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
       <p>© <span id="year"></span> Shree Technologies. All rights reserved.</p>
-      <p class="text-slate-500">Digital Marketing • Web Development • ERP • Branding</p>
+      <p class="text-slate-500">AI • ML • ERP • Digital Growth</p>
     </div>
   </footer>
 
   <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/917007036919" target="_blank"
-    class="fixed z-40 bottom-5 right-4 sm:bottom-6 sm:right-6 whatsapp-float">
-    <div
-      class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg">
-      <!-- WhatsApp Icon -->
+  <a href="https://wa.me/917007036919" target="_blank" class="fixed z-40 bottom-5 right-4 sm:bottom-6 sm:right-6 whatsapp-float">
+    <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="w-6 h-6">
         <path fill="currentColor"
           d="M16.04 5C10.54 5 6 9.53 6 15.02c0 2.26.74 4.35 2 6.05L6 27l6.09-1.97A10.02 10.02 0 0 0 16.04 25C21.54 25 26 20.48 26 15S21.54 5 16.04 5zm0 2.2c4.25 0 7.73 3.46 7.73 7.78c0 4.32-3.48 7.78-7.73 7.78c-1.32 0-2.63-.34-3.8-.99l-.27-.15l-3.61 1.17l1.18-3.5l-.18-.29a7.46 7.46 0 0 1-1.2-4.02c0-4.32 3.48-7.78 7.73-7.78zm-2.07 3.71c-.18 0-.48.07-.73.34c-.25.27-.96.94-.96 2.29c0 1.35.99 2.66 1.13 2.84c.14.18 1.92 3.05 4.66 4.15c2.3.92 2.77.83 3.27.78c.5-.05 1.61-.66 1.84-1.3c.23-.64.23-1.19.16-1.3c-.07-.11-.25-.18-.53-.32c-.28-.14-1.64-.81-1.89-.9c-.25-.09-.43-.14-.61.14c-.18.27-.7.9-.86 1.08c-.16.18-.32.2-.59.07c-.28-.14-1.16-.43-2.21-1.37c-.82-.73-1.37-1.63-1.53-1.9c-.16-.27-.02-.41.12-.55c.12-.12.28-.32.42-.48c.14-.16.18-.27.28-.46c.09-.18.05-.34-.02-.48c-.07-.14-.61-1.5-.84-2.06c-.22-.53-.45-.46-.63-.47z" />
@@ -761,11 +826,12 @@
     </div>
   </a>
 
-  <!-- Small JS to auto-update year -->
+  <!-- Auto-update year -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 
+  <!-- Contact form submit -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const form = document.getElementById('contactForm');
